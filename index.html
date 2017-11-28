@@ -1,98 +1,137 @@
-<!DOCTYPE HTML>
-<!--
-	Identity by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+<!doctype html>
 <html>
-	<head>
-		<title>I'm Dani</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-loading">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Official website of Dani Vijay. Full Stack Web Developer and Technology Evangelist.">
+  <meta name="author" content="Dani Vijay">
+  <meta name="google-site-verification" content="8xqUmFr1db3fjeoi33AK59a7rdNBMJNosf1ZYDWtlrA" />
+  <title>Dani Vijay</title>
+  <link rel="stylesheet" type="text/css" href="./css/lib/feather.min.css" />
+  <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+ <script async src="https://www.googletagmanager.com/gtag/js?id=UA-93459619-2"></script>
+ <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+  gtag('config', 'UA-93459619-2');
+ </script>
+  <style type="text/css">
+    #contact {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      height:100%;
+    }
+    .container {
+      order: 1;
+      flex: 0 1 auto;
+      min-width: 0;
+      min-height: auto;
+    }
+  </style>
 
-				<!-- Main -->
-					<section id="main">
-						<header>
-							<span class="avatar"><img src="images/avatar.jpg" alt="" /></span>
-							<h1>Dani M Vijay</h1>
-							<p>Web Developer. specialized in PHP, mySQL, JS, jQuery, AJAX, Bootstrap, Photoshop and ready to learn everything :)</p>
-						</header>
-						<!--
-						<hr />
-						<h2>Extra Stuff!</h2>
-						<form method="post" action="#">
-							<div class="field">
-								<input type="text" name="name" id="name" placeholder="Name" />
-							</div>
-							<div class="field">
-								<input type="email" name="email" id="email" placeholder="Email" />
-							</div>
-							<div class="field">
-								<div class="select-wrapper">
-									<select name="department" id="department">
-										<option value="">Department</option>
-										<option value="sales">Sales</option>
-										<option value="tech">Tech Support</option>
-										<option value="null">/dev/null</option>
-									</select>
-								</div>
-							</div>
-							<div class="field">
-								<textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
-							</div>
-							<div class="field">
-								<input type="checkbox" id="human" name="human" /><label for="human">I'm a human</label>
-							</div>
-							<div class="field">
-								<label>But are you a robot?</label>
-								<input type="radio" id="robot_yes" name="robot" /><label for="robot_yes">Yes</label>
-								<input type="radio" id="robot_no" name="robot" /><label for="robot_no">No</label>
-							</div>
-							<ul class="actions">
-								<li><a href="#" class="button">Get Started</a></li>
-							</ul>
-						</form>
-						<hr />
-						-->
-						<footer>
-							<ul class="icons">
-								<li><a href="https://twitter.com/thetechtweeter" class="fa-twitter">Twitter</a></li>
-								<li><a href="http://stackoverflow.com/users/4230220/dani-m-vijay" class="fa-stack-overflow">Stack Overflow</a></li>
-								<li><a href="https://www.linkedin.com/in/danimv" class="fa-linkedin">Linked In</a></li>
-								<li><a href="https://www.facebook.com/danimvijay" class="fa-facebook">Facebook</a></li>
-								<li><a href="mailto:danimvijay@gmail.com" class="fa-envelope">E Mail</a></li>
-							</ul>
-						</footer>
-					</section>
+</head>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<ul class="copyright">
-							<li>&copy; WebWinders</li>
-							<li>Design: <a href="http://html5up.net">Dani M Vijay</a></li>
-						</ul>
-					</footer>
+<body>
 
-			</div>
+  <div class="button_container">
+  <span class="top bar"></span>
+  <span class="middle bar"></span>
+  <span class="bottom bar"></span>
+</div>
 
-		<!-- Scripts -->
-			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
-			<script>
-				if ('addEventListener' in window) {
-					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
-					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
-				}
-			</script>
+<div class="overlay">
+  <div class="nav">
+    <ul>
+      <li><a href="#hero" data-speed="1000" class="menuLink scroll">Home</a></li>
+      <li><a href="#portfolio" data-speed="1000" class="menuLink scroll">Portfolio</a></li>
+      <li><a href="#contact" data-speed="1000" class="menuLink scroll">Contact</a></li>
+    </ul>
+  </div>
+</div>
 
-	</body>
+
+  <section id="hero" class="text-center animate fadeIn">
+    <div class="centered">
+      <h1 id="name">Dani Vijay</h1>
+      <p id="info">
+        <strong class="bold">Hello.</strong> <span id="textTyper" class="txt-rotate" data-period="1000" data-rotate='["I make things.", "I Design and Develop", "And I love it."]'></span>
+      </p>
+    </div>
+  </section>
+
+  <!-- <section id="about" class="text-center">
+    <h2 class="underline">About</h2>
+    <p>
+      I love to make side projects and just random stuff in my free time. I also enjoy playing soccer, playing guitar, solving Rubik's Cubes, and many more.
+    </p>
+  </section> -->
+  
+  <!-- Add Projects -->
+  <section id="portfolio" class="text-center animate fadeIn">
+    <div class="p-items">
+      <h2 id="portfolio-desc">Projects</h2>
+      <h3 class="desc" class="wow animated fadeIn">Things I put my hands on.</h3>
+
+      <a href="https://UtmostDev.com" class="wow animated fadeIn">
+        <span id="bolded">UtmostDev</span>&nbsp;&nbsp;&nbsp;Personal Blog
+      </a>
+      <br/><br/>
+
+      <!-- <a href="https://IndianAstrologySoftware.com" class="wow animated fadeIn">
+        <span id="bolded">IndianAstrologySoftware.com</span>&nbsp;&nbsp;&nbsp;Astrology Softwares
+      </a>
+      <br/><br/>
+      
+      <a href="https://IndianAstrologySoftware.com" class="wow animated fadeIn">
+        <span id="bolded">ClickAstro.com</span>&nbsp;&nbsp;&nbsp;Horoscopes and Reports
+      </a>
+      <br/><br/> -->
+
+      <a href="https://twitter.com/KochiWeather" class="wow animated fadeIn">
+        <span id="bolded">Kochi Weather Bot</span>&nbsp;&nbsp;&nbsp;Twitter Bot
+      </a>
+      <br/><br/>
+
+      <a href="http://www.aleyne.com/" class="wow animated fadeIn">
+        <span id="bolded">Aleyne</span>&nbsp;&nbsp;&nbsp;Tech and Spices
+      </a>
+      <br/><br/>
+
+      <a href="http://corbeaufashions.com/" class="wow animated fadeIn">
+        <span id="bolded">Corbeau</span>&nbsp;&nbsp;&nbsp;Fashions
+      </a>
+      <br/><br/>
+
+      <a href="http://nyceglobal.com/" class="wow animated fadeIn">
+        <span id="bolded">Nyce Global</span>&nbsp;&nbsp;&nbsp;Products for Kids
+      </a>
+      <br/><br/>
+
+    </div>
+  </section>
+
+  <section id="contact" class="animate fadeIn text-center">
+    <div class="container">
+      <h1 style="color: black;">Find my writing on my <a class="underline black" href="https://UtmostDev.com" target="_blank">Blog</a>, my thoughts on <a class="underline black" href="https://twitter.com/UtmostDev" target="_blank">Twitter</a>, and my profile on <a class="underline black" href="https://www.linkedin.com/in/danivijay/" target="_blank">LinkedIn</a>.</h1>
+
+      <h1 style="color: black;">Feel free to reach out by saying <a class="underline black" href="mailto:hi@danivijay.com?subject=Hey" target="_blank">hi@danivijay.com</a>.</h1>
+    </div>
+  </section>
+
+  <footer class="animate fadeIn">
+    Made with <span id="heart" class="animate pulse infinite">Code</span> By <a class="underline white" href="https://danivijay.com" id="kabir">Dani Vijay</a>
+  </footer>
+
+  <script type="text/javascript" src="./js/lib/paint.min.js"></script>
+  <script type="text/javascript" src="./js/lib/scroll.js"></script>
+  <script type="text/javascript" src="./js/lib/txtrotate.js"></script>
+  <script type="text/javascript" src="./js/scripts.js"></script>
+</body>
+
 </html>
